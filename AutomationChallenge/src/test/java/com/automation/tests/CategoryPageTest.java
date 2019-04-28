@@ -41,9 +41,10 @@ public class CategoryPageTest extends TestBase {
 		logger.info("Calling the verifyselectItemAndCheckOut test of the CategoryPageTest" );
 
 		String catTitle = categorypage.validateCategoryPageTitle();
-		assertEquals(catTitle, "Summer Dresses - My Store");
+		softAssert.assertEquals(catTitle, "Summer Dresses - My Store");
 
 		orderpage = categorypage.selectItemAndAddToCart();
+		softAssert.assertAll();
 
 	}
 

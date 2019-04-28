@@ -57,7 +57,9 @@ public class CreateAccountPageTest extends TestBase {
 
 		String pagetxt = createaccountpage.getTitle();
 
-		assertEquals(pagetxt, "Authentication" ,"Create Account Page does not match the text");
+		softAssert.assertEquals(pagetxt, "Authentication" ,"Create Account Page does not match the text");
+		
+		softAssert.assertAll();
 
 
 	}
@@ -92,10 +94,10 @@ public class CreateAccountPageTest extends TestBase {
 		String phoneErrorTxt=  createaccountpage.verifyNoPhoneNumberPassed("M", "FN", "LN", "mary123", "2", "4", "7", "addrfn", "addln", "add_cmny", "add1", "add2",
 				"cty", "Florida", "01890", "United States", "additionalInfo", " ", " ", "AliasAdd");
 
-		assertEquals(phoneErrorTxt, prop.getProperty("phoneErrorMsg"));
+		softAssert.assertEquals(phoneErrorTxt, prop.getProperty("phoneErrorMsg"));
 
 
-
+		softAssert.assertAll();
 
 
 	}
@@ -110,11 +112,12 @@ public class CreateAccountPageTest extends TestBase {
 				" ", " ", " ", " ", " ", " ", " ");
 
 
-		assertEquals(errorVals[0], "You must register at least one phone number.");
+		softAssert.assertEquals(errorVals[0], "You must register at least one phone number.");
 
-		assertEquals(errorVals[1], "passwd");
+		softAssert.assertEquals(errorVals[1], "passwd");
 
-		assertEquals(errorVals[2], "This country requires you to choose a State.");
+		softAssert.assertEquals(errorVals[2], "This country requires you to choose a State.");
+		softAssert.assertAll();
 
 
 	}
@@ -132,10 +135,11 @@ public class CreateAccountPageTest extends TestBase {
 				"cty", "Florida", "01890", "-", "additionalInfo", " ", " ", "AliasAdd");
 
 
-		assertFalse(status, "Value is still shown");
+		softAssert.assertFalse(status, "Value is still shown");
+		softAssert.assertAll();
 
 	}
-
+	
 	@AfterMethod
 	public void tearDown() {
 

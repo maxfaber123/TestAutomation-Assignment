@@ -55,11 +55,20 @@ public class PaymentConfirmOrderPageTest extends TestBase{
 		paymentconfirmationorderpage =  shippingtabpage.proceedtoShippingAddressTab();
 
 	}
+	
+	@Test
+	public void verifyPaymentPageTextAndTitle() {
+		
+		String pageText = paymentconfirmationorderpage.paymentPageText();
+		softAssert.assertEquals(pageText, "Your payment method");
+		softAssert.assertEquals(driver.getTitle(), "Order - My Store");
+		softAssert.assertAll();
+	}
 
 	@Test
 	public void verifyOrder() throws Exception {
 
-		logger.info("Calling Method verifyorder to confirm the order ......");
+		logger.info("Calling Method verifyOrder to confirm the order ......");
 
 
 
@@ -67,9 +76,10 @@ public class PaymentConfirmOrderPageTest extends TestBase{
 		String dressSize= paymentconfirmationorderpage.getDressSize();
 		String price= paymentconfirmationorderpage.getPriceInfo();
 
-		assertEquals(dressInfo, "Printed Chiffon Dress");
-		assertEquals(dressSize, "M");
-		assertEquals(price, "$16.40");
+		softAssert.assertEquals(dressInfo, "Printed Chiffon Dress");
+		softAssert.assertEquals(dressSize, "M");
+		softAssert.assertEquals(price, "$16.40");
+		softAssert.assertAll();
 
 
 	}

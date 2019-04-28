@@ -48,6 +48,21 @@ public class ShippingTabPageTest extends TestBase {
 
 		shippingtabpage = addresstabpage.proceedtoCheckoutAddressTab();
 	}
+	
+	@Test
+	public void verifyShippingPageTitleAndPageText() throws Exception {
+
+		logger.info("Calling Method verifyShippingPageTitleAndPageText......");
+
+
+
+		String pageText = shippingtabpage.validateShippingTabPage();
+		softAssert.assertEquals(pageText, "SHIPPING");
+		softAssert.assertEquals(driver.getTitle(), "Order - My Store");
+		softAssert.assertAll();
+
+
+	}
 
 	@Test
 	public void verifyProceedToCheckoutShippingTab() throws Exception {

@@ -42,9 +42,10 @@ public class OrderPageTest extends TestBase {
 		logger.info("Calling the verifyselectItemAndCheckOut test of the OrderPageTest" );
 
 		String orderpageTitle = orderpage.verifyOrderPageTitle();
-		assertEquals(orderpageTitle, "Order - My Store");
+		softAssert.assertEquals(orderpageTitle, "Order - My Store");
 
 		guestcheckoutPage = orderpage.clickonProceedToCheckoutButton();
+		softAssert.assertAll();
 
 	}
 

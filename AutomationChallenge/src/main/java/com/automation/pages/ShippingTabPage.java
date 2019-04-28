@@ -15,7 +15,7 @@ public class ShippingTabPage extends TestBase {
 	@FindBy(xpath= "//button[@name='processCarrier']")
 	WebElement proceedToCheckoutBtn;
 
-	@FindBy(xpath = "//span[contains(text(),'Shipping')]")
+	@FindBy(xpath = "//h1[contains(text(),'Shipping')]")
 	WebElement shippingTabPageText;
 
 	public ShippingTabPage() {

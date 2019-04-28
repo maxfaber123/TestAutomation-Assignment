@@ -47,9 +47,10 @@ public class GuestCheckoutPageTest extends TestBase {
 		logger.info("Calling Methods for the GuestCheckoutPageTest");
 
 		String guestpageTitle = guestcheckoutPage.verifyGuestPageTitle();
-		assertEquals(guestpageTitle, "Login - My Store");
+		softAssert.assertEquals(guestpageTitle, "Login - My Store");
 
 		createaccountpage = guestcheckoutPage.enterEmailandClickCreatAccount(TestUtil.emailRandom());
+		softAssert.assertAll();
 
 
 	}
@@ -63,7 +64,9 @@ public class GuestCheckoutPageTest extends TestBase {
 
 		String emailError =  guestcheckoutPage.verifyAlreadyRegisteredEmail(prop.getProperty("email"));
 
-		assertEquals(emailError, prop.getProperty("emailError"));
+		softAssert.assertEquals(emailError, prop.getProperty("emailError"));
+		
+		softAssert.assertAll();
 
 	}
 

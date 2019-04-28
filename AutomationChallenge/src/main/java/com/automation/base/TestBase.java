@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import org.testng.asserts.SoftAssert;
 
 import com.automation.util.TestUtil;
 import com.automation.util.WebEventListener;
@@ -30,6 +30,7 @@ public class TestBase {
 	public static EventFiringWebDriver eventfiringDriver;
 	public static WebEventListener webeventlistner;
 	public static Logger logger =  LogManager.getLogger(TestBase.class);
+	public static SoftAssert softAssert = new SoftAssert();
 	
 	public TestBase()  {
 		

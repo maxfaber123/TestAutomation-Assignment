@@ -56,7 +56,7 @@ public class TestUtil extends TestBase {
 	public static String emailRandom() {
 		Random random = new Random();
 		int number = random.nextInt(1000);
-		String randoms = String.format("%04d", number);
+		String randoms = String.format("%03d", number);
 		String email = randoms+"@gmail.com";
 		return email;
 		

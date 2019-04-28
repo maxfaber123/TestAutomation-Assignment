@@ -13,7 +13,7 @@ public class AddressTabPage extends TestBase {
 	WebElement proceedToCheckoutBtn;
 
 	@FindBy(xpath = "//span[contains(text(),'Addresses')]")
-	WebElement addresspagext;
+	WebElement addresspageText;
 
 
 
@@ -26,7 +26,7 @@ public class AddressTabPage extends TestBase {
 
 	public String validateAddressPage() {
 
-		return addresspagext.getText();
+		return addresspageText.getText();
 
 
 	}

@@ -48,6 +48,21 @@ public class AddressTabPageTest extends TestBase {
 
 	}
 
+	@Test
+	public void verifyPageTitleAndPageText() throws Exception {
+
+		logger.info("Calling Method verifyPageTitleAndPageText......");
+
+
+
+		String pageText = addresstabpage.validateAddressPage();
+		softAssert.assertEquals(pageText, "Addresses");
+		softAssert.assertEquals(driver.getTitle(), "Order - My Store");
+		softAssert.assertAll();
+
+
+	}
+
 
 
 	@Test

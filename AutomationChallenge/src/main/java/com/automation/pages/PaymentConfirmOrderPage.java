@@ -16,6 +16,9 @@ public class PaymentConfirmOrderPage extends TestBase{
 
 	@FindBy(xpath = "//span[@class='price special-price']")
 	WebElement price;
+	
+	@FindBy(xpath = "//span[contains(text(),'payment')]")
+	WebElement paymentPageText;
 
 
 	public PaymentConfirmOrderPage() {
@@ -23,7 +26,10 @@ public class PaymentConfirmOrderPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 
-
+	public String paymentPageText() {
+		
+		return paymentPageText.getText();
+	}
 	public String getDressInfo() {
 
 		return  printedShiffonText.getText();
