@@ -7,7 +7,7 @@ Technology Stack
   - TestNG Framework
   - Log4j 2(Logging API)
   - Maven (Build Automation tool)
-  - Apache POI API (Read & Write Utilies for Test Data Handling)
+  - Apache POI API (Read & Write Utilities for Test Data Handling)
 
 Automation Framework Architecture
   - POM(Page Object Model) Design Page Factory API of WebDriver
