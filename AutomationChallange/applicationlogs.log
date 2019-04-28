@@ -1,0 +1,37 @@
+[INFO ] 2019-04-27 22:04:23.080 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:04:25.678 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:04:32.119 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:04:34.160 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:04:40.483 [main] TestBase - Calling the verifyselectItemAndCheckOut test of the CategoryPageTest
+[INFO ] 2019-04-27 22:04:46.542 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:04:48.632 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:05:00.813 [main] TestBase - Calling the verifyselectItemAndCheckOut test of the OrderPageTest
+[INFO ] 2019-04-27 22:05:03.710 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:05:05.768 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:05:19.628 [main] TestBase - Calling Methods for the GuestCheckoutPageTest
+[INFO ] 2019-04-27 22:05:21.587 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:05:23.653 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:05:36.087 [main] TestBase - Calling Methods for the GuestCheckoutPageTest
+[INFO ] 2019-04-27 22:05:36.980 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:05:39.003 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:05:52.466 [main] TestBase - Calling errorVerificationWhennoValuePassedInForm Method ......
+[INFO ] 2019-04-27 22:06:17.333 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:06:19.423 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:06:31.699 [main] TestBase - Calling Methods for the Create Account Page 
+[INFO ] 2019-04-27 22:06:32.441 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:06:34.492 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:06:48.281 [main] TestBase - Calling Method verifyElementDoesNotExistForCountrySelection .....
+[INFO ] 2019-04-27 22:06:54.388 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:06:56.427 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:07:15.295 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:07:17.323 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:07:30.910 [main] TestBase - Calling verifyNoPhoneNumberPassed Method ... 
+[INFO ] 2019-04-27 22:07:37.373 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:07:39.423 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:07:57.378 [main] TestBase - Calling Method verifyProceedToCheckoutAddressTab......
+[INFO ] 2019-04-27 22:08:00.981 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:08:03.049 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:08:22.136 [main] TestBase - Calling Method verifyProceedToCheckoutShippingTab......
+[INFO ] 2019-04-27 22:08:23.992 [main] TestBase - Initializing the Webdriver and the Browser 
+[INFO ] 2019-04-27 22:08:26.048 [main] TestBase - Initializing the Eventfiringwebdriver to log all the WebDriver Events
+[INFO ] 2019-04-27 22:08:47.244 [main] TestBase - Calling Method verifyorder to confirm the order ......

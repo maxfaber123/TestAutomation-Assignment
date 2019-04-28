@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.automation.ExtentReportListener.ExtentReporterListener"/>
+  </listeners>
+  <test name="Automation Challenge Test Execution(failed)">
+    <classes>
+      <class name="com.automation.tests.CategoryPageTest">
+        <methods>
+          <include name="verifyselectItemAndCheckOut"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.tests.CategoryPageTest -->
+      <class name="com.automation.tests.CreateAccountPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyElementDoesNotExistForCountrySelection"/>
+        </methods>
+      </class> <!-- com.automation.tests.CreateAccountPageTest -->
+    </classes>
+  </test> <!-- Automation Challenge Test Execution(failed) -->
+</suite> <!-- Failed suite [Test Automation Test Suite] -->

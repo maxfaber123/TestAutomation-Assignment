@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Automation Test Suite">
+
+
+
+	<listeners>
+
+		<listener class-name="com.automation.ExtentReportListener.ExtentReporterListener" />
+
+	</listeners>
+
+
+	<test name="Automation Challenge Test Execution">
+
+		<classes>
+			
+			<class name="com.automation.tests.HomePageTest"></class>
+			<class name="com.automation.tests.CategoryPageTest"></class>
+			<class name="com.automation.tests.OrderPageTest"></class>
+			<class name="com.automation.tests.GuestCheckoutPageTest"></class>
+			<class name="com.automation.tests.CreateAccountPageTest"></class>
+			<class name="com.automation.tests.AddressTabPageTest"></class>
+			<class name="com.automation.tests.ShippingTabPageTest"></class>
+			
+			<class name="com.automation.tests.PaymentConfirmOrderPageTest"></class>
+
+
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Automation Challenge Test Execution</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Automation Challenge Test Execution</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 27 22:04:23 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>264 seconds (264959 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.tests.CreateAccountPageTest.errorVerificationWhennoValuePassedInForm()'><b>errorVerificationWhennoValuePassedInForm</b><br>Test class: com.automation.tests.CreateAccountPageTest</td>
+<td></td>
+<td>24</td>
+<td>com.automation.tests.CreateAccountPageTest@72967906</td></tr>
+<tr>
+<td title='com.automation.tests.HomePageTest.navigateToCategoryTest()'><b>navigateToCategoryTest</b><br>Test class: com.automation.tests.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.automation.tests.HomePageTest@59662a0b</td></tr>
+<tr>
+<td title='com.automation.tests.GuestCheckoutPageTest.validateAlreadyRegisterdEmails()'><b>validateAlreadyRegisterdEmails</b><br>Test class: com.automation.tests.GuestCheckoutPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.automation.tests.GuestCheckoutPageTest@1a482e36</td></tr>
+<tr>
+<td title='com.automation.tests.CreateAccountPageTest.verifyCreateAccontPage()'><b>verifyCreateAccontPage</b><br>Test class: com.automation.tests.CreateAccountPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.CreateAccountPageTest@72967906</td></tr>
+<tr>
+<td title='com.automation.tests.CreateAccountPageTest.verifyElementDoesNotExistForCountrySelection()'><b>verifyElementDoesNotExistForCountrySelection</b><br>Test class: com.automation.tests.CreateAccountPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.automation.tests.CreateAccountPageTest@72967906</td></tr>
+<tr>
+<td title='com.automation.tests.GuestCheckoutPageTest.verifyEmailAndCreateAccontButton()'><b>verifyEmailAndCreateAccontButton</b><br>Test class: com.automation.tests.GuestCheckoutPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.GuestCheckoutPageTest@1a482e36</td></tr>
+<tr>
+<td title='com.automation.tests.CreateAccountPageTest.verifyNewAccountCreation()'><b>verifyNewAccountCreation</b><br>Test class: com.automation.tests.CreateAccountPageTest<br>Parameters: M, Masar, Nisarr, masar123, 2, 4, 6, Masar, Nisarr, cmp1, add1, add2, winchester, Florida, 21780, United States, test123, 201-45-9876, 748-535-7312, add_alias</td>
+<td></td>
+<td>5</td>
+<td>com.automation.tests.CreateAccountPageTest@72967906</td></tr>
+<tr>
+<td title='com.automation.tests.CreateAccountPageTest.verifyNoPhoneNumberPassed()'><b>verifyNoPhoneNumberPassed</b><br>Test class: com.automation.tests.CreateAccountPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.automation.tests.CreateAccountPageTest@72967906</td></tr>
+<tr>
+<td title='com.automation.tests.PaymentConfirmOrderPageTest.verifyOrder()'><b>verifyOrder</b><br>Test class: com.automation.tests.PaymentConfirmOrderPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.tests.PaymentConfirmOrderPageTest@747ddf94</td></tr>
+<tr>
+<td title='com.automation.tests.AddressTabPageTest.verifyProceedToCheckoutAddressTab()'><b>verifyProceedToCheckoutAddressTab</b><br>Test class: com.automation.tests.AddressTabPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.automation.tests.AddressTabPageTest@5b8dfcc1</td></tr>
+<tr>
+<td title='com.automation.tests.ShippingTabPageTest.verifyProceedToCheckoutShippingTab()'><b>verifyProceedToCheckoutShippingTab</b><br>Test class: com.automation.tests.ShippingTabPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.automation.tests.ShippingTabPageTest@2f9f7dcf</td></tr>
+<tr>
+<td title='com.automation.tests.CategoryPageTest.verifyselectItemAndCheckOut()'><b>verifyselectItemAndCheckOut</b><br>Test class: com.automation.tests.CategoryPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.automation.tests.CategoryPageTest@77fbd92c</td></tr>
+<tr>
+<td title='com.automation.tests.OrderPageTest.verifyselectItemAndCheckOut()'><b>verifyselectItemAndCheckOut</b><br>Test class: com.automation.tests.OrderPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.automation.tests.OrderPageTest@67c27493</td></tr>
+</table><p>
+</body>
+</html>
